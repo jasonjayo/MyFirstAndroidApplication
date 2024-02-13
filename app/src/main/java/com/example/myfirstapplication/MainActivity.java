@@ -18,6 +18,7 @@ public class MainActivity extends AppCompatActivity {
     }
 
     public void sendMessage(View view) {
+        // R is stuff in res (resources) folder
         EditText editText = findViewById(R.id.editText);
         String message = editText.getText().toString();
 
